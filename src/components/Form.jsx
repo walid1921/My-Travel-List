@@ -18,7 +18,12 @@ function Form({ handleAddItems }) {
     if (!description) return;
 
     // To combine all data in one object
-    const newItem = { description, quantity, packed: false, id: Date.now() }
+    const newItem = { 
+      description, 
+      quantity, 
+      packed: false, 
+      id: Date.now() 
+    }
     console.log(newItem)
 
     // To pass the item data in handleAddItems() its down

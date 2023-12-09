@@ -16,7 +16,7 @@ function PackingList({ items, handleDeleteItems, handleCheck, handleClear }) {
     <div className="list">
       <ul className="overflow-hidden">
         {sortedItems.map(item =>
-          <Item key={item.id} item={item} handleDeleteItems={handleDeleteItems} handleCheck={handleCheck} />
+          <Item key={item._id} item={item} handleDeleteItems={handleDeleteItems} handleCheck={handleCheck} />
         )}
       </ul>
 
