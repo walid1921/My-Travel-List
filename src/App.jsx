@@ -8,8 +8,8 @@ import Stats from "./components/Stats";
 
 
 
-// const BACKEND_URL = 'http://localhost:5000/api'
-const BACKEND_URL = 'https://mytravellist-api.onrender.com/api'
+// || 'http://localhost:5000/api';
+const BACKEND_URL = 'https://mytravellist-api.onrender.com/api';
 
 
 
