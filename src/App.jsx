@@ -9,7 +9,7 @@ import Stats from "./components/Stats";
 
 
 // || 'http://localhost:5000/api';
-const BACKEND_URL = 'https://mytravellist-api.onrender.com/api';
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL;
 
 
 
