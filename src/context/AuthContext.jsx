@@ -30,8 +30,8 @@ function reducer(state, action) {
   }
 }
 
-// const BACKEND_URL = import.meta.env.VITE_BACKEND_URL;
-const BACKEND_URL = 'http://localhost:5000/api';
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL;
+// const BACKEND_URL = 'http://localhost:5000/api';
 
 // eslint-disable-next-line react/prop-types
 function AuthProvider({ children }) {
