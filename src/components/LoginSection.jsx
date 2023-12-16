@@ -14,7 +14,7 @@ function LoginSection() {
     if ( !email || !password) return alert("Please enter username and email and password");
     if (email && password) login(email, password);
 
-    console.log(`Email: ${email} Password: ${password}`)
+    // console.log(`Email: ${email} Password: ${password}`)
   };
 
   useEffect(() => {

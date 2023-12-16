@@ -3,7 +3,7 @@ import { useAuth } from "../context/AuthContext"
 import { useEffect } from "react";
 
 function User() {
-  const {email, user, logout } = useAuth()
+  const {user, logout } = useAuth()
   const navigate = useNavigate()
 
 

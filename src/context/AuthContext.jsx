@@ -49,8 +49,7 @@ function AuthProvider({ children }) {
 
       // Assuming the response contains the authenticated user data
       const authenticatedUser = response.data;
-      console.log(authenticatedUser.userName)
-      // authenticatedUser.userName
+      // console.log(authenticatedUser.userName)
 
       dispatch({ type: 'login', payload: authenticatedUser });
     } catch (error) {
